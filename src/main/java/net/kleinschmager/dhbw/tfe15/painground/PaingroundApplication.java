@@ -36,6 +36,7 @@ public class PaingroundApplication {
 			repository.save(new MemberProfile("mickni", "Knight"));
 			repository.save(new MemberProfile("geolaf", "Laforge"));
 			repository.save(new MemberProfile("Nicolai1992", "Vajen"));
+			repository.save(new MemberProfile("jjulianf", "Foeth"));
 			
 			// fetch all profiles
 			log.info("MemberProfiles found with findAll():");
