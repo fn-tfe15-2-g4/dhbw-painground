@@ -52,6 +52,7 @@ public class PaingroundApplication {
 
 			repository.save(new MemberProfile("jf", "3wm"));
 			repository.save(new MemberProfile("jf", "rebase"));
+			repository.save(new MemberProfile("jf", "masterrebase"));
 
 			
 			// STEP 2
