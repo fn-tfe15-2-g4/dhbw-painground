@@ -53,7 +53,7 @@ public class PaingroundApplication {
 			repository.save(new MemberProfile("jf", "3wm"));
 
 			
-			// STEP 2
+			// STEP Uebung Rebase
 			
 			// fetch all profiles
 			log.info("MemberProfiles found with findAll():");
