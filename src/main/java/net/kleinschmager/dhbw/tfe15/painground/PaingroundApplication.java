@@ -47,6 +47,7 @@ public class PaingroundApplication {
 			repository.save(new MemberProfile("Nicolai1992", "Vajenbranch3wm"));
 			repository.save(new MemberProfile("jjulianf", "Foeth"));
 			repository.save(new MemberProfile("jf", "ff"));
+			repository.save(new MemberProfile("jf", "3wm"));
 			
 			// STEP 2
 			
