@@ -45,11 +45,11 @@ public class PaingroundApplication {
 			repository.save(new MemberProfile("jjulianf", "Foeth"));
 			repository.save(new MemberProfile("jf", "ff"));
 			repository.save(new MemberProfile("nv", "rebase"));
-			repository.save(new MemberProfile("jf", "master3wm"));
-			repository.save(new MemberProfile("jf", "3wm"));
-			repository.save(new MemberProfile("jf", "rebase"));
-			repository.save(new MemberProfile("jf", "masterrebase"));
-			repository.save(new MemberProfile("jf", "travistest"));
+			repository.save(new MemberProfile("jf1", "master3wm"));
+			repository.save(new MemberProfile("jf2", "3wm"));
+			repository.save(new MemberProfile("jf3", "rebase"));
+			repository.save(new MemberProfile("jf4", "masterrebase"));
+			repository.save(new MemberProfile("jf5", "travistest"));
 	
 
 			saveSomeProfile(repository);
