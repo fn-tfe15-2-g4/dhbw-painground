@@ -39,8 +39,9 @@ public class PaingroundApplication {
 	public CommandLineRunner loadData(MemberProfileRepository repository) {
 		return (args) -> {
 			
-
-			// save a couple of profiles
+			saveSomeProfile(repository);
+			
+			/*
 			repository.save(new MemberProfile("Nicolai1992", "Vajenbranch3wm"));
 			repository.save(new MemberProfile("jjulianf", "Foeth"));
 			repository.save(new MemberProfile("jf", "ff"));
@@ -50,9 +51,9 @@ public class PaingroundApplication {
 			repository.save(new MemberProfile("jf3", "rebase"));
 			repository.save(new MemberProfile("jf4", "masterrebase"));
 			repository.save(new MemberProfile("jf5", "travistest"));
-	
+			*/
 
-			saveSomeProfile(repository);
+			
 			
 
 			// STEP 2
