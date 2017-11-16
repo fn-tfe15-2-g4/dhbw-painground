@@ -38,8 +38,8 @@ public class PaingroundApplication {
 	@Bean
 	public CommandLineRunner loadData(MemberProfileRepository repository) {
 		return (args) -> {
-			/// STEP 1
 			
+
 			// save a couple of profiles
 			repository.save(new MemberProfile("robkle", "Kleinschmager"));
 			repository.save(new MemberProfile("mickni", "Knight"));
@@ -53,6 +53,10 @@ public class PaingroundApplication {
 			repository.save(new MemberProfile("jf", "rebase"));
 			repository.save(new MemberProfile("jf", "masterrebase"));
 	
+
+			saveSomeProfile(repository);
+			
+
 			// STEP 2
 			
 			// fetch all profiles
@@ -73,5 +77,12 @@ public class PaingroundApplication {
 			log.info("");
 
 		};
+	}
+
+	private void saveSomeProfile(MemberProfileRepository repository) {
+		// save a couple of profiles
+		repository.save(new MemberProfile("robkle", "Kleinschmager"));
+		repository.save(new MemberProfile("mickni", "Knight"));
+		repository.save(new MemberProfile("geolaf", "Laforge"));
 	}
 }
