@@ -31,10 +31,11 @@ public class MemberProfileCsvTransformatorTest {
 	}
 
 	@Test
-	@Ignore
 	public void testTransformStringArray() {
 		// GIVEN
+		String [][] input = new String [0][0];
 		// WHEN
+		//List<MemberProfile> result = cut;
 		// THEN
 		fail("Not yet implemented");
 	}
