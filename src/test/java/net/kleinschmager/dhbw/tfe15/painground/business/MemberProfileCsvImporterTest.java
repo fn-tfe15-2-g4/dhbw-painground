@@ -24,8 +24,13 @@ public class MemberProfileCsvImporterTest {
 
 	@Test
 	@Ignore
-	public void testImportFile() {
-		fail("Not yet implemented");
+	public void wrongSeperatorShouldFail() {
+		//GIVEN
+		
+		//WHEN
+		
+		//THEN
+
 	}
 
 }
