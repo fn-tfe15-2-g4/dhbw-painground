@@ -31,11 +31,12 @@ public class MemberProfileCsvTransformatorTest {
 	}
 
 	@Test
-	public void testTransformStringArray() {
+	public void validArrayWithNoElementsShouldReturnEmptyList() {
 		// GIVEN
+		String[][] input = new String[3][3];
 		// WHEN
+		List<MemberProfile> result = cut.transform(input);
 		// THEN
-		fail("Not yet implemented");
+		assertTrue("Result should be empty list", result.isEmpty());
 	}
-
 }
