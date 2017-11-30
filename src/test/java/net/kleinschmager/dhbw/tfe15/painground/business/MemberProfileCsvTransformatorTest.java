@@ -31,7 +31,6 @@ public class MemberProfileCsvTransformatorTest {
 	}
 
 	@Test
-	@Ignore
 	public void testTransformStringArray() {
 		// GIVEN
 		// WHEN
